@@ -6,13 +6,13 @@ export default function AudioClipPlayer() {
     { label: "2)今日は皆さんに昔話を聞かせましょう。", file: "segments/segment2.m4a" },
     { label: "3)昔々、科挙に落ち続ける青年がいました。", file: "segments/segment3.m4a" },
     { label: "4)彼は試験を重ねる〜自分に疑問を持ち始めます。", file: "segments/segment4.m4a" },
-    { label: "5)不満が溜まった彼は〜「チェス暴動」に発展しました。", file: "segments/segment4.m4a" },
-    { label: "6)暴動の最中、青年は瓦礫の中の一枚の紙切れを拾います。", file: "segments/segment5.m4a" },
-    { label: "7)かんじ３文字", file: "segments/segment6.m4a" },
-    { label: "8)その一言が彼の心を動かしました", file: "segments/segment7.m4a" },
-    { label: "9)「俺は何をしているんだ」", file: "segments/segment8.m4a" },
-    { label: "10)青年は本当に大切なものに気づいたのです。〜 Congratulations 地球", file: "segments/segment9.m4a" },
-    { label: "11)王様もいないこの盤上で僕らはどんな役を与えられたんだろうか", file: "segments/segment10.m4a" },
+    { label: "5)不満が溜まった彼は〜「チェス暴動」に発展しました。", file: "segments/segment5.m4a" },
+    { label: "6)暴動の最中、青年は瓦礫の中の一枚の紙切れを拾います。", file: "segments/segment6.m4a" },
+    { label: "7)かんじ３文字", file: "segments/segment7.m4a" },
+    { label: "8)その一言が彼の心を動かしました", file: "segments/segment8.m4a" },
+    { label: "9)「俺は何をしているんだ」", file: "segments/segment9.m4a" },
+    { label: "10)青年は本当に大切なものに気づいたのです。〜 Congratulations 地球", file: "segments/segment10.m4a" },
+    { label: "11)王様もいないこの盤上で僕らはどんな役を与えられたんだろうか", file: "segments/segment11.m4a" },
   ];
   const play = (file) => {
     if (!audioRef.current) return;

@@ -2,16 +2,16 @@ import { useRef } from "react";
 export default function AudioClipPlayer() {
   const audioRef = useRef(null);
   const clips = [
-    { label: "0:00 - 0:03", file: "public/segments/segment1.m4a" },
-    { label: "0:03 - 0:07", file: "public/segments/segment2.m4a" },
-    { label: "0:07 - 0:13", file: "public/segments/segment3.m4a" },
-    { label: "0:13 - 0:39", file: "public/segments/segment4.m4a" },
-    { label: "0:39 - 0:45", file: "public/segments/segment5.m4a" },
-    { label: "0:45 - 0:47", file: "public/segments/segment6.m4a" },
-    { label: "0:47 - 0:51", file: "public/segments/segment7.m4a" },
-    { label: "0:51 - 0:54", file: "public/segments/segment8.m4a" },
-    { label: "0:54 - 1:07", file: "public/segments/segment9.m4a" },
-    { label: "1:07 - 1:15", file: "public/segments/segment10.m4a" },
+    { label: "0:00 - 0:03", file: "/segments/segment1.m4a" },
+    { label: "0:03 - 0:07", file: "/segments/segment2.m4a" },
+    { label: "0:07 - 0:13", file: "/segments/segment3.m4a" },
+    { label: "0:13 - 0:39", file: "/segments/segment4.m4a" },
+    { label: "0:39 - 0:45", file: "/segments/segment5.m4a" },
+    { label: "0:45 - 0:47", file: "/segments/segment6.m4a" },
+    { label: "0:47 - 0:51", file: "/segments/segment7.m4a" },
+    { label: "0:51 - 0:54", file: "/segments/segment8.m4a" },
+    { label: "0:54 - 1:07", file: "/segments/segment9.m4a" },
+    { label: "1:07 - 1:15", file: "/segments/segment10.m4a" },
   ];
   const play = (file) => {
     if (!audioRef.current) return;
